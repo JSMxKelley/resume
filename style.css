@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Source+Serif+Pro:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  text-decoration: none;
+}
+
+body {
+  font-size: 17px;
+  font-family: "Source serif pro";
+  font-weight: normal;
+  /* color: #395dc067; */
+  color: #dc9d62;
+  /* background: #1f5c4a15; */
+  background: #80644b;
+}
+
+.text {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  /* color: #2531728f; */
+  color: #dc9d62;
+}
+
+.card {
+  padding: 15px;
+  margin-top: 40px;
+  /* background: #d9e5e5; */
+  background: #914720;
+  border-radius: 12px 250px 250px 12px;
+  max-width: 230px;
+}
+
+.card2 {
+  padding: 15px;
+  margin-top: 20px;
+  /* background: #d9e5e5; */
+  background: #914720;
+  border-radius: 12px 250px 250px 12px;
+  max-width: 590px;
+  text-align: center;
+}
+
+img {
+  margin-bottom: 30px;
+  border-radius: 250px 250px 12px 12px;
+}
+
+.container {
+  padding-top: 25px;
+  max-width: 800px;
+  margin: auto;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.social {
+  margin-bottom: 30px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 15px;
+  /* background: #d9e5e5; */
+  background: #914720;
+  border-radius: 12px 250px 250px 12px;
+  border: 0;
+  outline: 0;
+  /* color: #a4b6dd; */
+  color: #dc9d62;
+  margin-bottom: 10px;
+}
+
+.btn:hover {
+  /* background: #d3dfdf; */
+  background: #B87044;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.btn:active {
+  background: #ffffff;
+  color: black;
+}
+
+input,
+label {
+  padding: 15px;
+  border: 0;
+  /* color: rgba(57, 93, 192, 0.404); */
+  background: #914720;
+  border-radius: 12px 250px 250px 12px;
+  border: 0;
+  outline: 0;
+  color: #dc9d62;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #dc9d62;
+}
+
+.textarea {
+  width: 200px;
+  transition: width 0.3s ease-in-out;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 10px;
+}
+
+.textarea:hover {
+  width: 400px;
+}
+
+.font-size {
+  width: 220px;
+  font-size: 15px;
+  opacity: 0.4;
+}
+
+.info {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.padding {
+  padding-top: 40px;
+}
+
+@media (max-width: 650px) {
+  .info {
+    /* width: 150px;
+    height: 200px; */
+    flex-direction: column;
+    justify-content: center;
+  }
+  img {
+    margin: 0 auto;
+  }
+}
